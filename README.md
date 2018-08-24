@@ -25,15 +25,15 @@ The goals / steps of this project are the following:
 [image10]: ./newImages_2/36.png "Traffic Sign 7"
 [image11]: ./newImages_2/38.png "Traffic Sign 8"
 [image12]: ./newImages_2/4.png "Traffic Sign 9"
-[image13]: ./writeupImages_2/11_Top5.png
-[image14]: ./writeupImages_2/18_Top5.png 
-[image15]: ./writeupImages_2/18_Top5.png
-[image16]: ./writeupImages_2/23_Top5.png
-[image17]: ./writeupImages_2/28_Top5.png
-[image18]: ./writeupImages_2/31_Top5.png
-[image19]: ./writeupImages_2/36_Top5.png
-[image20]: ./writeupImages_2/38_Top5.png
-[image21]: ./writeupImages_2/4_Top5.png
+[image13]: ./writeupimages_2/11_Top5.png
+[image14]: ./writeupimages_2/18_Top5.png 
+[image15]: ./writeupimages_2/18_Top5.png
+[image16]: ./writeupimages_2/23_Top5.png
+[image17]: ./writeupimages_2/28_Top5.png
+[image18]: ./writeupimages_2/31_Top5.png
+[image19]: ./writeupimages_2/36_Top5.png
+[image20]: ./writeupimages_2/38_Top5.png
+[image21]: ./writeupimages_2/4_Top5.png
 
 ---
 ### Data Set Summary & Exploration
@@ -143,8 +143,6 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8] ![alt text][image9] 
 ![alt text][image10] ![alt text][image11] ![alt text][image12] 
-
-The first image might be difficult to classify because ...
 
 #### The mode's predictions
 
