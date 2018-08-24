@@ -162,7 +162,21 @@ The model was able to correctly guess 8 of the 9 traffic signs, which gives an a
 
 #### Predictions with softmax probability
 
-![alt text][image13] ![alt text][image14] ![alt text][image15] 
-![alt text][image16] ![alt text][image17] ![alt text][image18] 
-![alt text][image19] ![alt text][image20] ![alt text][image21] 
+![alt text][image13] 
+
+![alt text][image14] 
+
+![alt text][image15] 
+
+![alt text][image16] 
+
+![alt text][image17] 
+
+![alt text][image18] 
+
+![alt text][image19] 
+
+![alt text][image20] 
+
+![alt text][image21] 
 
