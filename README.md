@@ -16,24 +16,24 @@ The goals / steps of this project are the following:
 [image1]: ./writeupImages/index_samples.png "Samples"
 [image2]: ./writeupImages/training_histogram.png "Histogram"
 [image3]: ./writeupImages/original_preprocessing.png "Pre-processing"
-[image4]: ./newImages/12.png "Traffic Sign 1"
-[image5]: ./newImages/13.png "Traffic Sign 2"
-[image6]: ./newImages/14.png "Traffic Sign 3"
-[image7]: ./newImages/17.png "Traffic Sign 4"
-[image8]: ./newImages/25.png "Traffic Sign 5"
-[image9]: ./newImages/3.png "Traffic Sign 6"
-[image10]: ./newImages/34.png "Traffic Sign 7"
-[image11]: ./newImages/35.png "Traffic Sign 8"
-[image12]: ./newImages/4.png "Traffic Sign 9"
-[image13]: ./writeupImages/download(1).png
-[image14]: ./writeupImages/download(2).png 
-[image15]: ./writeupImages/download(3).png
-[image16]: ./writeupImages/download(4).png
-[image17]: ./writeupImages/download(5).png
-[image18]: ./writeupImages/download(6).png
-[image19]: ./writeupImages/download(7).png
-[image20]: ./writeupImages/download(8).png
-[image21]: ./writeupImages/download(9).png
+[image4]: ./newImages_2/11.png "Traffic Sign 1"
+[image5]: ./newImages_2/17.png "Traffic Sign 2"
+[image6]: ./newImages_2/18.png "Traffic Sign 3"
+[image7]: ./newImages_2/23.png "Traffic Sign 4"
+[image8]: ./newImages_2/28.png "Traffic Sign 5"
+[image9]: ./newImages_2/31.png "Traffic Sign 6"
+[image10]: ./newImages_2/36.png "Traffic Sign 7"
+[image11]: ./newImages_2/38.png "Traffic Sign 8"
+[image12]: ./newImages_2/4.png "Traffic Sign 9"
+[image13]: ./writeupImages_2/11_Top5.png
+[image14]: ./writeupImages_2/18_Top5.png 
+[image15]: ./writeupImages_2/18_Top5.png
+[image16]: ./writeupImages_2/23_Top5.png
+[image17]: ./writeupImages_2/28_Top5.png
+[image18]: ./writeupImages_2/31_Top5.png
+[image19]: ./writeupImages_2/36_Top5.png
+[image20]: ./writeupImages_2/38_Top5.png
+[image21]: ./writeupImages_2/4_Top5.png
 
 ---
 ### Data Set Summary & Exploration
@@ -78,13 +78,13 @@ My final model consisted of the following layers:
 |:---------------------:|:---------------------------------------------:| 
 | Input                 | 32x32x3 RGB image                             | 
 | Convolution 3x3       | 5x5 filter, 1x1 stride, same padding, outputs 32x32x6     |
-| RELU                  |                                               |
+| ELU                  |                                               |
 | Max pooling           | 2x2 filter, 2x2 stride, valid padding, outputs 16x16x6                |
 | Convolution 3x3       | 5x5 filter, 1x1 stride, same padding, outputs 16x16x16    |
-| RELU                  |                                               |
+| ELU                  |                                               |
 | Max pooling           | 2x2 filter, 2x2 stride, valid pading, outputs 8x8x16              |
 | Convolution 3x3       | 5x5 filter, 1x1 stride, same padding, outputs 8x8x20  |
-| RELU                  |                                               |
+| ELU                  |                                               |
 | Max pooling           | 2x2 filter, 2x2 stride, valid padding, outputs 4x4x20                 |
 | Flatten       | outputs 320                                           |
 | Fully connected       | outputs 160                                           |
@@ -102,9 +102,9 @@ The batch size is 50, the number of epochs is 20. The dropout, probability to ke
 #### Result
 
 My final model results were:
-* training set accuracy of ?   0.987
-* validation set accuracy of ?   0.931 
-* test set accuracy of ?   0.909
+* training set accuracy of ?   0.999
+* validation set accuracy of ?   0.947 
+* test set accuracy of ?   0.927
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
@@ -152,16 +152,17 @@ Here are the results of the prediction:
 
 | Image                 |     Prediction                                | 
 |:---------------------:|:---------------------------------------------:| 
-| Priority road             | Priority road                                     | 
-| Yield                 | Yield                                         |
-| Stop                  | Stop                                          |
-| No entry              | No entry                                  |
-| Speed limit (60km/h)          | Speed limit (60km/) |
-| Turn left ahead       | Turn left ahead                               |
-| Ahead only        | Ahead only                                |
-| Speed limit (70km/h)      | Speed limit (70km/) |
+| Right-of-way at the next intersection | Right-of-way at the next intersection | 
+| No entry | No entry |
+| General caution | General causion |
+| Slippery road | Slippery road |
+| Children crossing | Children crossing |
+| Wild animals crossing | Wild animals crossing |
+| Go straight or right | Go straight or right |
+| Keep right | Keep right |
+| Speed limit (70km/h)      | Speed limit (30km/h) |
 
-The model was able to correctly guess 9 of the 9 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 8 of the 9 traffic signs, which gives an accuracy of 88.89%. 
 
 #### Predictions with softmax probability
 
