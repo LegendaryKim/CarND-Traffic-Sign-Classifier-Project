@@ -39,6 +39,7 @@ The goals / steps of this project are the following:
 ### Data Set Summary & Exploration
 
 #### Exploratory Data Analysis 
+The traffic data set from Udacy is collected from German Traffic Sign Recognition Benchmark ([GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news)).
 
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
