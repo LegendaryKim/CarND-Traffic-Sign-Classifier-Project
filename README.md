@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image11]: ./newImages_2/38.png "Traffic Sign 8"
 [image12]: ./newImages_2/4.png "Traffic Sign 9"
 [image13]: ./writeupimages_2/11_Top5.png
-[image14]: ./writeupimages_2/18_Top5.png 
+[image14]: ./writeupimages_2/17_Top5.png 
 [image15]: ./writeupimages_2/18_Top5.png
 [image16]: ./writeupimages_2/23_Top5.png
 [image17]: ./writeupimages_2/28_Top5.png
